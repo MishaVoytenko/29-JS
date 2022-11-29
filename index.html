@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let name = prompt("як твоє им'я");
+      alert(`Привіт, ${name}`);
+      let yearBirth = prompt("твій рік народженя");
+      const year = 2022;
+      let age = year - yearBirth;
+      alert(age);
+      let side = prompt("задайте сторону квадрата в см");
+      let perimeter = side * 4;
+      // как добавить см
+      alert(perimeter);
+      let radius = prompt("задайте радіус кола");
+      let square = 3.14 * (radius * radius);
+      alert(square);
+      let distance = prompt("задайте відстань між двома містами");
+      let time = prompt(
+        "заскільки годи Ви хочете дістатись з одного міста у друге?"
+      );
+      let speed = distance / time;
+      alert(speed);
+      let dolar = prompt("введіть кількість доларів");
+      const kurs = 1.03;
+      let euro = dolar * kurs;
+      alert(euro);
+    </script>
+  </body>
+</html>
